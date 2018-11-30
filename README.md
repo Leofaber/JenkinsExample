@@ -1,2 +1,2 @@
 # JenkinsExample
-Master branch
+Pull request with Jenkinsfile
