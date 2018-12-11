@@ -5,9 +5,9 @@ pipeline {
             steps {
                 script {
                   sh """
-                    echo ====================> Hi!
                     pwd
                     ls
+                    singularity exec helloword.sigm cowsay moo
                   """.stripIndent()
 
                 }
